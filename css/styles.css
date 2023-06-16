@@ -634,7 +634,7 @@ progress {
 .container-sm {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
-  width: 85%;
+  width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
@@ -10824,3 +10824,21 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+.main{
+  width: 85%;
+  margin: auto;
+}
+
+@media (min-width: 820px){
+  .main{
+    width: 70%;
+  }
+}
+
+@media (min-width: 450px){
+  .main{
+    width: 50%;
+  }
+}
+
